@@ -1,24 +1,14 @@
 {
-  "name": "brotli",
-  "version": "1.3.2",
-  "description": "A port of the Brotli compression algorithm as used in WOFF2",
+  "name": "brotli-decompress",
+  "version": "0.0.1",
+  "description": "Brotli decompress from browser use",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/devongovett/brotli.js.git"
+    "url": "https://github.com/myevari/brotli.js"
   },
-  "keywords": [
-    "compress",
-    "decompress",
-    "encode",
-    "decode"
-  ],
   "author": "Devon Govett <devongovett@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/devongovett/brotli.js/issues"
-  },
-  "homepage": "https://github.com/devongovett/brotli.js",
   "dependencies": {
     "base64-js": "^1.1.2"
   },
@@ -29,7 +19,6 @@
     "./dec/dictionary-data.js": "./dec/dictionary-browser.js"
   },
   "scripts": {
-    "test": "mocha",
-    "prepublish": "make"
+    "test": "mocha"
   }
 }
